@@ -1,0 +1,44 @@
+baseurl = "http://damienroche.com/"
+languageCode = "en-IE"
+title = "Damien Roche"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "damienroche-com"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.jpg"
+  author = "Damien Roche"
+  description = "Personal blog about technology, configuration management, devops, agile and continuous delivery"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[social]
+  Github        = "daxroc"
+  Email         = "dcroche@gmail.com"
+  Twitter       = "daxroc"
+  LinkedIn      = "damien-roche-b57a4616"
+#  Stackoverflow = "username"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/index.html"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/index.html"
+#[[menu.main]]
+#  name = "resume"
+#  identifier = "resume"
+#  weight = 300
+#  url = "/resume/"
